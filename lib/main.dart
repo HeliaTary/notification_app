@@ -30,18 +30,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
-// class NotificationHandler {
-//   static void initializeFCM() {
-//     FirebaseMessaging.onMessage.listen((RemoteMessage message) {
-//       print("Foreground Notification: ${message.notification?.title}");
-//     });
-//
-//     FirebaseMessaging.onMessageOpenedApp.listen((RemoteMessage message) {
-//       print("Notification Clicked: ${message.notification?.title}");
-//       if (Get.currentRoute != "/details") {
-//         Get.toNamed("/details"); // Ensure navigation to ScreenB
-//       }
-//     });
-//   }
-// }
