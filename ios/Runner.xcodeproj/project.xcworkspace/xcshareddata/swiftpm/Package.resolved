@@ -1,0 +1,15 @@
+{
+  "originHash" : "494789bee36828633f5cb7b8129f381529427727a64a8ba7a3b6f068e2dfcd2f",
+  "pins" : [
+    {
+      "identity" : "wonderpush-ios-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/wonderpush/wonderpush-ios-sdk",
+      "state" : {
+        "branch" : "master",
+        "revision" : "176ac5dd0a9e91c1394937a26cc1e0b2fbf3aced"
+      }
+    }
+  ],
+  "version" : 3
+}
